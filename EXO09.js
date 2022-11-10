@@ -1,11 +1,7 @@
 function choomChoom(nb1){
-nb1 = prompt ("entrer un chiffre")
-  if (nb1%2 == 0 ) {
-    console.log ("choom")
-    
-  } else{
-    console.log ("choomchoom")
-    
+if (a%2 ==0){
+  return "Choom"
+} else{
+  return"ChoomChoom"
 }
 }
-choomChoom();
